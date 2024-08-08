@@ -70,7 +70,7 @@ const Login = () => {
         </div>
         <div className="mb-4">
           <ReCAPTCHA
-            sitekey="6Ld1ECEqAAAAAIgmlHsHWdDNp5fRNlMVPHTytF4G"
+            sitekey= {import.meta.env.VITE_RECAPTCHA_SITE_KEY}
             onChange={handleCaptchaChange}
           />
         </div>
